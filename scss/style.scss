@@ -6,7 +6,7 @@ $font: 'Roboto', sans-serif;
 h1,h2,h3,h4,h5,h6{
   font-family: $font;
 }
-
+//Header area start
 .header-area {
   background-color: #30314d;
   color: #ffffff;
@@ -44,4 +44,16 @@ h1,h2,h3,h4,h5,h6{
   }
   
 }
+//Header area end
 
+//Works area start
+.works-area {
+  padding: 80px 0;
+  .works {
+    width: 31%;
+    margin: 0 1%;
+    float: left;
+    text-align: center;
+  }
+}
+//Works area end

@@ -48,4 +48,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   margin-top: 30px;
   border-radius: 0;
+}
+
+.works-area {
+  padding: 80px 0;
+}
+.works-area .works {
+  width: 31%;
+  margin: 0 1%;
+  float: left;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
