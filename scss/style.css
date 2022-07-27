@@ -1,4 +1,46 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 95%;
+  max-width: 1023px;
+  margin: 0 auto;
+}
+
+.header-area {
+  background-color: #30314d;
+  color: #ffffff;
+}
+.header-area .nav-link {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.header-area hr {
+  width: 85%;
+  margin: auto;
+}
+.header-area .hero-section {
+  text-align: center;
+  padding: 90px 0;
+}
+.header-area .hero-section h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.header-area .hero-section p {
+  font-size: 15px;
+  color: #abafb2;
+}
+.header-area .hero-section .btn {
+  border: none;
+  padding: 10px 40px;
+  background-color: #e84546;
+  color: #f5eadc;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 30px;
+  border-radius: 0;
 }/*# sourceMappingURL=style.css.map */
