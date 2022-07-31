@@ -88,4 +88,59 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.team-area {
+  padding: 80px 0;
+}
+.team-area .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));
+  grid-column-gap: 20px;
+}
+.team-area .container .team .team-content {
+  margin-top: 15px;
+}
+.team-area .container .team .team-content h4 {
+  font-size: 18px;
+}
+.team-area .container .team .team-content h6 {
+  font-size: 14px;
+  color: #e84546;
+}
+.team-area .container .team .team-content p {
+  color: #747d8c;
+  font-size: 14px;
+}
+.team-area .container .team .team-social a {
+  color: #bdc3c7;
+}
+.team-area .container .team .team-social a i {
+  padding: 5px;
+  border: 1px solid #bdc3c7;
+  font-size: 15px;
+}
+
+.testimonial-area {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+}
+.testimonial-area .test-img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.testimonial-area .test-content {
+  background-color: #523549;
+  padding: 65px;
+  color: #bdc3c7;
+}
+.testimonial-area .test-content h3 {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+}
+.testimonial-area .test-content p {
+  font-size: 15px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
